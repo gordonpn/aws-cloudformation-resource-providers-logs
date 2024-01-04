@@ -1,7 +1,8 @@
 repo_name: gordonpn/aws-cloudformation-resource-providers-logs
 report_id: 4a8c9f5d1d289bb21ff0006626f68753
+version: 0.1
 repo_type: Public
-timestamp: '2023-11-09T13:12:35+00:00'
+timestamp: '2024-01-04T14:53:58+00:00'
 requested_by: markkuhn
 provider: github
 branch: master
@@ -16,6 +17,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/995/K85ZWV2F.png
+  detection_source_url: https://github.com/gordonpn/aws-cloudformation-resource-providers-logs
   detection_source: Repo Metadata
 - name: Git
   description: Fast, scalable, distributed revision control system
@@ -25,6 +27,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/gordonpn/aws-cloudformation-resource-providers-logs
   detection_source: Repo Metadata
 - name: JUnit
   description: A programmer-oriented testing framework for Java
@@ -36,7 +39,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Testing Frameworks
   image_url: https://img.stackshare.io/service/2020/874086.png
-  detection_source_url: aws-logs-logstream/pom.xml
+  detection_source_url: https://github.com/gordonpn/aws-cloudformation-resource-providers-logs/blob/master/aws-logs-logstream/pom.xml
   detection_source: aws-logs-logstream/pom.xml
   last_updated_by: ceskander-aws
   last_updated_on: 2022-06-24 14:27:35.000000000 Z
@@ -49,7 +52,8 @@ tools:
   category: Monitoring
   sub_category: Logging Tools
   image_url: https://img.stackshare.io/service/2804/Coralogix-log4j-integration.jpg
-  detection_source: aws-logs-subscriptionfilter/pom.xml
+  detection_source_url: https://github.com/gordonpn/aws-cloudformation-resource-providers-logs/blob/master/aws-logs-logstream/pom.xml
+  detection_source: aws-logs-logstream/pom.xml
   last_updated_by: ceskander-aws
   last_updated_on: 2022-06-24 14:27:35.000000000 Z
 - name: Mockito
@@ -62,8 +66,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Testing Frameworks
   image_url: https://img.stackshare.io/service/2021/4y634TJm_400x400.jpg
-  detection_source_url: aws-logs-destination/pom.xml
-  detection_source: aws-logs-subscriptionfilter/pom.xml
+  detection_source_url: https://github.com/gordonpn/aws-cloudformation-resource-providers-logs/blob/master/aws-logs-destination/pom.xml
+  detection_source: aws-logs-destination/pom.xml
   last_updated_by: Surya Sravanthi
   last_updated_on: 2020-07-06 19:01:36.000000000 Z
 - name: SLF4J
@@ -74,7 +78,8 @@ tools:
   category: Monitoring
   sub_category: Log Management
   image_url: https://img.stackshare.io/service/2805/05518ecaa42841e834421e9d6987b04f_400x400.png
-  detection_source: aws-logs-subscriptionfilter/pom.xml
+  detection_source_url: https://github.com/gordonpn/aws-cloudformation-resource-providers-logs/blob/master/aws-logs-logstream/pom.xml
+  detection_source: aws-logs-logstream/pom.xml
   last_updated_by: ceskander-aws
   last_updated_on: 2022-06-24 14:27:35.000000000 Z
 - name: Travis CI
@@ -86,6 +91,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Continuous Integration
   image_url: https://img.stackshare.io/service/460/Lu6cGu0z_400x400.png
+  detection_source_url: https://github.com/gordonpn/aws-cloudformation-resource-providers-logs/blob/master/.travis.yml
   detection_source: ".travis.yml"
   last_updated_by: Anton Mokhovikov
   last_updated_on: 2020-07-10 18:03:12.000000000 Z
